@@ -1,0 +1,8 @@
+[Adblock Plus 2.0]
+! Version: 1
+! Title: My Personal Filter List
+! Last modified: 13/12/21
+! Expires: 7 days (update frequency)
+! Homepage: 
+!
+royalroadl.com##script:inject(abort-on-property-write.js, adonisHash)
