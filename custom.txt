@@ -6,3 +6,4 @@
 ! Homepage: 
 !
 royalroadl.com##script:inject(abort-on-property-write.js, adonisHash)
+||royalroad.com/advertising^
