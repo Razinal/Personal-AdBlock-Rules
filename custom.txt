@@ -2,8 +2,13 @@
 ! Version: 1
 ! Title: My Personal Filter List
 ! Last modified: 13/12/21
-! Expires: 7 days (update frequency)
+! Expires: 1 days (update frequency)
 ! Homepage: 
 !
-royalroadl.com##script:inject(abort-on-property-write.js, adonisHash)
-||royalroad.com/advertising^
+www.royalroad.com##.porlet-body > .text-center.wide
+www.royalroad.com##.fiction-list-item.text-center.portlet
+www.royalroad.com##.text-center.light.portlet
+www.royalroad.com##.text-center.light.portlet
+www.royalroad.com##.portlet-body > .text-center.wide
+www.royalroad.com##.text-center.uppercase.bold
+www.royalroad.com##.chapter-page.container > div > .wide
