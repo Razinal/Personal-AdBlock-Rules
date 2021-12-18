@@ -12,3 +12,9 @@ www.royalroad.com##.text-center.light.portlet
 www.royalroad.com##.portlet-body > .text-center.wide
 www.royalroad.com##.text-center.uppercase.bold
 www.royalroad.com##.chapter-page.container > div > .wide
+audiobookbay.nl##li > ul > li > div
+audiobookbay.nl##.yellow
+audiobookbay.nl###rsidebar > ul > li > div
+audiobookbay.nl##div:nth-of-type(11)
+audiobookbay.nl##.ski
+audiobookbay.nl##div:nth-of-type(5)
