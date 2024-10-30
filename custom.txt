@@ -1,20 +1,98 @@
 [Adblock Plus 2.0]
-! Version: 1
+! Version: 2
 ! Title: My Personal Filter List
-! Last modified: 13/12/21
-! Expires: 1 days (update frequency)
-! Homepage: 
-!
-www.royalroad.com##.porlet-body > .text-center.wide
-www.royalroad.com##.fiction-list-item.text-center.portlet
+! TimeUpdated: 2024-10-30T09:00:00+03:30
+! Expires: 2 days (update frequency)
+! Homepage: https://github.com/Razinal/Personal-AdBlock-Rules/tree/main
+
+! 2022-12-14 https://www.royalroad.com
+www.royalroad.com##div.text-center.wide:nth-of-type(1)
+www.royalroad.com##div.ac.text-center.profile-sidebar-portlet.light.portlet:nth-of-type(1)
+www.royalroad.com##div.ac.text-center.profile-sidebar-portlet.light.portlet:nth-of-type(2)
+www.royalroad.com##div.text-center.wide:nth-of-type(3)
+www.royalroad.com##.hidden-sm.hidden-xs.pull-right.fiction-sidebar > div.ac.text-center.no-padding.light.portlet
+www.royalroad.com##.fiction-info > div.row > .col-sm-12
 www.royalroad.com##.text-center.light.portlet
-www.royalroad.com##.text-center.light.portlet
-www.royalroad.com##.portlet-body > .text-center.wide
-www.royalroad.com##.text-center.uppercase.bold
 www.royalroad.com##.chapter-page.container > div > .wide
-audiobookbay.nl##li > ul > li > div
-audiobookbay.nl##.yellow
-audiobookbay.nl###rsidebar > ul > li > div
-audiobookbay.nl##div:nth-of-type(11)
-audiobookbay.nl##.ski
-audiobookbay.nl##div:nth-of-type(5)
+www.royalroad.com##.text-center.uppercase.bold
+www.royalroad.com##.portlet-body > .text-center.wide
+www.royalroad.com##.hidden-sm.hidden-xs.pull-right.fiction-sidebar > div.ac.t-center.no-padding.light.portlet
+www.royalroad.com##.t-center.light.portlet
+
+! 2023-02-21 https://1337x.to
+1337x.to###l7f22a7fce3287fc198f24e2e5122a7cb22f27348 > div
+
+! 2023-03-15 https://ranobes.net
+ranobes.top###arrticle > div
+
+! 2023-06-17 https://www.pornhub.com
+www.pornhub.com##.extraMargin.languages.pornInLangWrapper.sectionWrapper
+www.pornhub.com##.container > .pornInLangWrapper.sectionWrapper
+
+! 2023-09-17 https://www.lightsnovel.com
+www.lightsnovel.com##.novel-ins2
+
+! 2024-02-08 https://1337x.to
+1337x.to###vpnvpn
+
+! 2024-03-20 https://hentaihere.com
+hentaihere.com/m/*^$1p,inline-script
+@@hentaihere.com/m/S*/*/*^$1p,inline-script
+
+! 2024-03-24 https://fikfap.com
+@@||go.xliirdr.com^$popup,domain=fikfap.com
+
+! 2024-04-16 https://www.imdb.com
+||imdb-video.media-imdb.com/vi3425090073/$media,domain=www.imdb.com,important
+
+! Jul 20, 2024 https://music.youtube.com
+music.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
+
+! Jul 20, 2024 https://www.webnovel.com
+www.webnovel.com##.j_para_comment_tip.chapter-pop-tip.pr16.pl16.pb12.pt12
+
+! Aug 19, 2024 https://comick.io
+comick.io##.myscrollbar.overflow-y-auto.overflow-x-hidden.w-full.pr-2.pb-16.pt-1.mt-3
+comick.io##.left-7.bottom-10.z-30.fixed
+comick.io##.overflow-hidden.m-auto.max-w-prose.pb-16.mt-3
+
+! Sep 9, 2024 https://doujins.com
+doujins.com###previewfolder
+
+! Oct 15, 2024 https://www.fanmtl.com
+www.fanmtl.com##.bA_Dw_NX.TPuhiHlg
+
+! Oct 15, 2024 https://novelfire.docsachhay.net
+novelfire.docsachhay.net###pfvidad
+
+! Youtube Block
+$removeparam=embeds_referring_euri,domain=youtubekids.com|youtube-nocookie.com|youtube.com
+$removeparam=embeds_referring_origin,domain=youtubekids.com|youtube-nocookie.com|youtube.com
+||youtube.com^$removeparam=pp
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
+www.youtube.com#$##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
+youtube.com#%#//scriptlet('set-constant', 'yt.config_.EXPERIMENT_FLAGS.web_bind_fetch', 'false')
+||youtube-nocookie.com/gen_204?
+||youtube.com/youtubei/v1/log_event?
+||youtube.com/api/stats/atr?
+||youtube.com/api/stats/delayplay?
+||youtube.com/api/stats/ads?
+||youtube.com/api/stats/qoe?
+||youtube.com/csi_204?
+||youtube.com/gen_204
+||youtube.com/player_204?
+||youtube.com/ptracking?
+||youtube.com/pcs/activeview?xai=
+||youtube-nocookie.com/youtubei/v1/log_event?
+||youtube-nocookie.com/api/stats/qoe?
+||youtube-nocookie.com/api/stats/atr?
+youtube.com#%#//scriptlet('set-constant', 'google_ad_status', '1')
+
+! Youtube Allow
+@@||s.youtube.com/api/stats/playback?
+@@||google-analytics.com/ga.js$domain=youtube.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
+
+! Oct 30, 2024 https://mangapark.net
+mangapark.net##.h-3.block
